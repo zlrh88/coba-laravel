@@ -15,7 +15,7 @@
                         <a href="/posts?category={{ $post->category->slug}}"> {{ $post->category->name }} </a>
                     </p>
 
-                    <img src="https://source.unsplash.com/1200x400?{{ $post->category->name }}" alt="{{ $post->category->name }}">
+                    <img class="img-fluid mb-5" src="https://source.unsplash.com/1200x600?{{ $post->category->name }}" alt="{{ $post->category->name }}">
 
                     {!! $post->body !!}
                 </article>

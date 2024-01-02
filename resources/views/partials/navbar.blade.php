@@ -25,7 +25,7 @@
                 Welcome Back, {{ auth()->user()->name }}
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Dashboard</a>
+                <a class="dropdown-item" href="/dashboard/posts">Dashboard</a>
                 <div class="dropdown-divider"></div>
                   <form action="/logout" method="POST">
                     @csrf
